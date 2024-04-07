@@ -1,7 +1,8 @@
-project(Multipackaging LANGUAGES C)
-enable_testing(true)
-
 cmake_minimum_required(VERSION 3.22)
+
+project(Multipackaging LANGUAGES C)
+
+enable_testing(true)
 
 set(TARGET_NAME math_calc)
 
